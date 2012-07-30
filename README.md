@@ -12,6 +12,8 @@ JMap Enhanced Edition
 
 `java -classpath /home/admin/tbjmap.jar:/java/lib/sa-jdi.jar sun.jvm.hotspot.tools.TBDumpClassURL PID > class_url.log`
 
+`java -classpath /home/admin/tbjmap.jar:/java/lib/sa-jdi.jar sun.jvm.hotspot.tools.TBDirectMemorySize PID`
+
 执行完毕会输出如下的信息:
 > 
 > Old Object Histogram:
