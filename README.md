@@ -9,6 +9,7 @@ JMap Enhanced Edition
 
 `java -classpath /home/admin/tbjmap.jar:/java/lib/sa-jdi.jar sun.jvm.hotspot.tools.TBJMap -histo PID > jmap_output.log`
 `java -classpath /home/admin/tbjmap.jar:/java/lib/sa-jdi.jar sun.jvm.hotspot.tools.TBJMap -oldhisto PID > jmap_oldoutput.log`
+`java -classpath /home/admin/tbjmap.jar:/java/lib/sa-jdi.jar sun.jvm.hotspot.tools.TBJMap -permhisto PID > jmap_permoutput.log`
 
 `java -classpath /home/admin/tbjmap.jar:/java/lib/sa-jdi.jar sun.jvm.hotspot.tools.TBDumpClassURL PID > class_url.log`
 
